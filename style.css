@@ -15,7 +15,7 @@ body {
   font-family: Roboto;
 }
 
-ul {
+.header ul {
   margin: 0;
   list-style: none;
   padding: 0;
