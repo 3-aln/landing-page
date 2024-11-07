@@ -11,5 +11,12 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: Roboto;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
 }
