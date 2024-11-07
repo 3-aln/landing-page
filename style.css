@@ -15,8 +15,16 @@ body {
   font-family: Roboto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
 .header ul {
   margin: 0;
   list-style: none;
   padding: 0;
+  display: flex;
+  gap: 20px;
 }
