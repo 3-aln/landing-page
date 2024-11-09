@@ -55,3 +55,10 @@ h1, h2, h3, p {
   justify-content: center;
   align-items: center;
 }
+
+.info-img-placeholder {
+  width: 110px;
+  height: 110px;
+  border: solid rgb(0, 128, 255) 3px;
+  border-radius: 10px;
+}
