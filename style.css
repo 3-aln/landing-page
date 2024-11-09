@@ -23,10 +23,27 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+.top-wrapper {
+  background-color: #1f2937;
+  padding: 0 16px;
+}
+
+.header, .headline-section {
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  align-items: baseline;
+  padding: 16px 0px;
+  max-width: 850px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 .header ul {
@@ -37,23 +54,56 @@ h1, h2, h3, p {
   gap: 20px;
 }
 
+.header a {
+  color: white;
+  opacity: 80%;
+}
+
+.header a:hover {
+  opacity: 100%;
+}
+
 .headline-section {
   display: flex;
   gap: 36px;
+  padding: 100px 0px;
+  max-width: 850px;
 }
 
 .headline {
   flex: 1;
 }
 
+.headline h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.headline p {
+  font-size: 16px;;
+  color: white;
+  opacity: 80%;
+  margin-bottom: 10px;
+}
+
 .headline-img-placeholder {
-  background-color: #aaa;
-  color: #f8f8f8;
+  background-color: rgba(255, 255, 255, 50%);
+  color: white;
   text-align: center;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.headline button {
+  background-color: #3b83f6;
+  border: none;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  padding: 6px 24px;
 }
 
 .info-section {
