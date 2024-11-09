@@ -37,7 +37,7 @@ h1, h2, h3, p {
   gap: 20px;
 }
 
-.headline-container {
+.headline-section {
   display: flex;
   gap: 36px;
 }
