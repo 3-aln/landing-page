@@ -56,9 +56,37 @@ h1, h2, h3, p {
   align-items: center;
 }
 
+.info-section {
+  border: solid red 1px;
+  padding: 30px;
+}
+
+.info-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.info {
+  /* flex-basis: auto; */
+  width: 110px;
+}
+
+.info-text {
+  text-align: center;
+  font-size: 11px;
+  color: #505a68;
+}
+
 .info-img-placeholder {
   width: 110px;
   height: 110px;
-  border: solid rgb(0, 128, 255) 3px;
+  border: solid #3b83f6 3px;
   border-radius: 10px;
 }
