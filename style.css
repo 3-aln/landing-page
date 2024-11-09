@@ -36,7 +36,7 @@ h1, h2, h3, p {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 16px 0px;
+  padding: 16px 0px 0px;
   max-width: 850px;
 }
 
@@ -66,7 +66,8 @@ h1, h2, h3, p {
 .headline-section {
   display: flex;
   gap: 36px;
-  padding: 100px 0px;
+  padding-top: 9cqmin;
+  padding-bottom: 100px;
   max-width: 850px;
 }
 
