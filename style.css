@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 html {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 a {
@@ -37,13 +37,13 @@ h1, h2, h3, p {
   justify-content: space-between;
   align-items: baseline;
   padding: 16px 0px 0px;
-  max-width: 850px;
+  max-width: 950px;
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  color: white;
+  color: #f9faf8;
 }
 
 .header ul {
@@ -55,20 +55,20 @@ h1, h2, h3, p {
 }
 
 .header a {
-  color: white;
-  opacity: 80%;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .header a:hover {
-  opacity: 100%;
+  color: white;
 }
 
 .headline-section {
   display: flex;
   gap: 36px;
-  padding-top: 9cqmin;
-  padding-bottom: 100px;
-  max-width: 850px;
+  padding-top: 130px;
+  padding-bottom: 150px;
+  max-width: 950px;
 }
 
 .headline {
@@ -76,15 +76,15 @@ h1, h2, h3, p {
 }
 
 .headline h1 {
-  font-size: 40px;
-  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
 }
 
 .headline p {
-  font-size: 16px;;
-  color: white;
-  opacity: 80%;
-  margin-bottom: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 14px;
 }
 
 .headline-img-placeholder {
@@ -98,47 +98,49 @@ h1, h2, h3, p {
 }
 
 .headline button {
-  background-color: #3b83f6;
+  background-color: #3882f6;
   border: none;
-  border-radius: 5px;
-  font-family: Roboto;
-  font-weight: bold;
-  color: white;
-  padding: 6px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: #f9faf8;
+  padding: 8px 36px;
 }
 
 .info-section {
-  border: solid red 1px;
-  padding: 30px;
+  padding: 50px;
 }
 
 .info-section h2 {
+  font-size: 36px;
+  color: #1f2937;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   margin-bottom: 30px;
 }
 
 .info {
   /* flex-basis: auto; */
-  width: 110px;
+  width: 175px;
+}
+
+.info-img-placeholder {
+  width: 175px;
+  height: 175px;
+  border: solid #3882f6 4px;
+  border-radius: 16px;
+  margin-bottom: 5px;
 }
 
 .info-text {
   text-align: center;
-  font-size: 11px;
+  font-size: 18px;
   color: #505a68;
-}
-
-.info-img-placeholder {
-  width: 110px;
-  height: 110px;
-  border: solid #3b83f6 3px;
-  border-radius: 10px;
-  margin-bottom: 5px;
 }
