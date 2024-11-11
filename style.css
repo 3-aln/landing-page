@@ -131,6 +131,7 @@ h1, h2, h3, p {
   justify-content: center;
   gap: 50px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .info {
