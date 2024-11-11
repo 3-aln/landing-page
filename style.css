@@ -23,8 +23,11 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-.top-wrapper {
+.top-wrapper, .footer {
   background-color: #1f2937;
+}
+
+.top-wrapper {
   padding: 0 16px;
 }
 
@@ -202,4 +205,11 @@ h1, h2, h3, p {
   background-color: #3882f6;
   border: solid #f9faf8 3px;
   color: #f9faf8;
+}
+
+.footer {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px;
 }
