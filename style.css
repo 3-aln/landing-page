@@ -189,7 +189,7 @@ h1, h2, h3, p {
   align-items: center;
   gap: 100px;
   padding: 50px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .signup-section h2 {
