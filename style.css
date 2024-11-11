@@ -97,15 +97,19 @@ h1, h2, h3, p {
   align-items: center;
 }
 
-.headline button {
-  background-color: #3882f6;
-  border: none;
-  border-radius: 8px;
+.headline button, .signup-section button {
   font-size: 18px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
+  padding: 0px 36px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.headline button {
+  border: solid #3882f6 3px;
+  background-color: #3882f6;
   color: #f9faf8;
-  padding: 8px 36px;
 }
 
 .info-section {
@@ -166,4 +170,36 @@ h1, h2, h3, p {
   font-weight: bold;
   text-align: right;
   margin-right: 20px;
+}
+
+.signup-section-wrapper {
+  background-color: white;
+  padding: 80px 16px;
+}
+
+.signup-section {
+  background-color: #3882f6;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.signup-section h2 {
+  color: #f9faf8;
+}
+
+.signup-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-section button {
+  background-color: #3882f6;
+  border: solid #f9faf8 3px;
+  color: #f9faf8;
 }
