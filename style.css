@@ -15,10 +15,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 h1, h2, h3, p {
   margin: 0;
 }
@@ -64,10 +60,7 @@ button {
 .header a {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.header a:hover {
-  color: white;
+  text-decoration: none;
 }
 
 .headline-section {
@@ -218,4 +211,13 @@ button {
   color: #e5e7eb;
   text-align: center;
   padding: 40px;
+}
+
+.footer a {
+  text-decoration: underline;
+  color: #e5e7eb;
+}
+
+a:hover {
+  color: white;
 }
