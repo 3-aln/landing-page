@@ -23,6 +23,10 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .top-wrapper, .footer {
   background-color: #1f2937;
 }
