@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap');
 
 html {
   box-sizing: border-box;
@@ -217,4 +217,16 @@ button {
 
 a:hover {
   color: white;
+}
+
+.hamster-plus {
+  font-variation-settings: 
+    "wdth" 85;
+  font-weight: 500;
+  color: #ffe1a8;
+  opacity: 90%;
+}
+
+.quote .hamster-plus {
+  color: #8d5f30;
 }
