@@ -112,6 +112,11 @@ button {
   color: #f9faf8;
 }
 
+.headline button:hover {
+  border-color: #5797ff;
+  background-color: #5797ff;
+}
+
 .info-section {
   padding: 50px;
 }
@@ -201,6 +206,10 @@ button {
   border: solid #f9faf8 3px;
   color: #f9faf8;
   flex-shrink: 0;
+}
+
+.signup-section button:hover {
+  background-color: #5797ff;
 }
 
 .footer {
