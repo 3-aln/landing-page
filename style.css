@@ -136,13 +136,13 @@ button {
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 25px;
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
 
 .info {
-  width: 175px;
+  width: 185px;
 }
 
 .info-img-placeholder {
@@ -153,10 +153,15 @@ button {
   margin-bottom: 5px;
 }
 
+.info-img {
+  margin-bottom: 10px;
+}
+
 .info-text {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: #505a68;
+  margin-bottom: 12px;
 }
 
 .quote-section {
