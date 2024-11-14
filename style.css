@@ -96,16 +96,6 @@ button {
   min-width: 0;
 }
 
-.headline-img-placeholder {
-  background-color: rgba(255, 255, 255, 50%);
-  color: white;
-  text-align: center;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .headline button, .signup-section button {
   font-size: 18px;
   font-family: Roboto, sans-serif;
@@ -143,14 +133,6 @@ button {
 
 .info {
   width: 185px;
-}
-
-.info-img-placeholder {
-  width: 175px;
-  height: 175px;
-  border: solid #3882f6 4px;
-  border-radius: 16px;
-  margin-bottom: 5px;
 }
 
 .info-img {
