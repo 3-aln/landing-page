@@ -7,7 +7,7 @@ This is a webpage built as an exercise in realizing a provided design using HTML
 The following are some skills I demonstrated while completing it.
 
 * Choosing appropriate HTML elements based on a design image.
-* Using combinations of block and flex display modes in CSS to achieve a layout from design images.
+* Using combinations of `block` and `flex` display modes in CSS to achieve a layout from design images.
 * Translating the style of elements from design images into CSS.
 
 Some extra additions I made beyond the project requirements:
